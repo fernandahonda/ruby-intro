@@ -29,4 +29,34 @@ puts die2
 
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
-puts "The total is: #{total}"
+# puts "The total is: #{total}"
+
+if total == 7 || total == 11
+    puts "You win"
+elsif total == 2 || total == 3 || total == 12
+    puts " You lose!"
+else
+    puts "The point is #{total}"
+end
+
+# Comparing text example
+# favorite_food = "tacos"
+# least_favorite_food = "kale"
+# served_food = "burguer"
+
+# if served_food == favorite_food
+#     puts "YAAY"
+# elseif served_food == least_favorite_food
+#     puts "NO!"
+# else
+#     puts "Meh"
+# end
+
+# # Another exmaple
+# temperature = 75
+# precip = 0 
+
+# if temperature > 0 && temperature < 80 && precip == 0
+#     puts "it's perfect outside"
+# end
+

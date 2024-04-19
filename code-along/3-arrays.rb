@@ -10,3 +10,14 @@
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+favorite_foods = [
+    "tacos", "pizza", "chocolate"
+]
+
+favorite_foods = favorite_foods + ["cake","ice cream"]
+favorite_foods.push("burritos")
+favorite_foods << "burgers"
+
+puts favorite_foods.reverse
+# puts favorite_foods [-1]

@@ -15,3 +15,21 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+brians_list = ["bourbon", "meat", "beer"]
+bens_list = ["kale", "brocolis", "beer"]
+
+# combine the two lists together & sort
+shared_list = brians_list + bens_list
+sorted_list = shared_list.sort()
+
+# remove non-unique items from the list
+unique_list = sorted_list.uniq()
+
+# print prepending each item with "buy"
+# unique_list.each do |item|
+#     puts "buy #{item}"
+# end
+
+formatted_items = unique_list.map { |item| "buy #{item}" }
+puts formatted_items
